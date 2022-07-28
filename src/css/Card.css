@@ -1,0 +1,33 @@
+.product{
+    display: flex;
+    margin:5% ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+
+.description{
+    position: absolute;
+}
+.description .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description .lower1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .icon{
+
+    background-color:  white;
+   border-radius: 50%;
+   padding: 2%;
+}
+.product i{
+   color: rgb(250, 109, 132);
+}
