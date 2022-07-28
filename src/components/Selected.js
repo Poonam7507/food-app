@@ -19,27 +19,27 @@ export default function Fooditem() {
          
           product_name:"Cabage salad",
           portion:'250g' ,
-          price:'$4.99',
-          // link:"../assets/kurti1.jpg"
+          price:4.99,
+         
           image: <img src={img1} alt=" " />
         },
         {
           id:2,
         //   rating:4.2,
          
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
-          // link:"../assets/kurti1.jpg"
+          product_name:"Noodle salad",
+          portion:'300g' ,
+          price:6.30,
+         
           image: <img src={img2} alt=" " />
         },
         {
           id:3,
         //   rating:4.2,
           
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
+          product_name:"Vegetable mix",
+          portion:'400g' ,
+          price:5.99,
           // link:"../assets/kurti1.jpg"
           image: <img src={img3} alt=" " />
         },
@@ -47,9 +47,9 @@ export default function Fooditem() {
           id:4,
         //   rating:4.2,
          
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
+          product_name:"Seafood soup",
+          portion:'350g' ,
+          price:6.10,
           // link:"../assets/kurti1.jpg"
           image: <img src={img4} alt=" " />
         },
@@ -57,9 +57,9 @@ export default function Fooditem() {
           id:5,
         //   rating:4.2,
         
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
+          product_name:"Bean soup",
+          portion:'350g' ,
+          price:4.40,
           // link:"../assets/kurti1.jpg"
           image: <img src={img5} alt=" " />
         },
@@ -67,9 +67,9 @@ export default function Fooditem() {
           id:6,
         //   rating:4.2,
          
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
+          product_name:"Stewd vegetables",
+          portion:'430g' ,
+          price:4.99,
           // link:"../assets/kurti1.jpg"
           image: <img src={img6} alt=" " />
         },
@@ -77,9 +77,9 @@ export default function Fooditem() {
           id:7,
         //   rating:4.2,
          
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
+          product_name:"Chicken soup",
+          portion:'360g' ,
+          price:3.99,
           // link:"../assets/kurti1.jpg"
           image: <img src={img7} alt=" " />
         },
@@ -87,9 +87,9 @@ export default function Fooditem() {
           id:8,
         //   rating:4.2,
           
-          product_name:"Cabage salad",
-          portion:'250g' ,
-          price:'$4.99',
+          product_name:"Roasted potatoes",
+          portion:'350g' ,
+          price:4.99,
           // link:"../assets/kurti1.jpg"
           image: <img src={img8} alt=" " />
         },
@@ -105,7 +105,10 @@ export default function Fooditem() {
       })
   }
 
- 
+  <div>
+     <p>Total=</p>
+    <btn3>Checkout</btn3>
+    </div>
   
   </div>
    

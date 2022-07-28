@@ -30,6 +30,6 @@
     height: 17px;
 }
 
-.btn1{
-    
+.btn1,.btn2{
+    cursor: pointer;
 }

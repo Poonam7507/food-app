@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import Order from './Card'
+
 import '../css/Card.css'
 import img1 from '../Assets/img1.jpg'
 import img2 from '../Assets/img2.jpg'
