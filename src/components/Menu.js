@@ -1,5 +1,7 @@
 import React from 'react'
 import Fooditem from './Fooditem'
+
+import Selected from './Selected'
 import '../css/Stylemenu.css'
 
 export default function Menu() {
@@ -11,7 +13,7 @@ export default function Menu() {
         <div className='menu-item'>
           <Fooditem/>
         </div>
-        <div className='my-order'>my order</div>
+        <div className='my-order'><Selected/></div>
     </div>
     </>
   )

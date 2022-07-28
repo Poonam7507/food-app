@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Card'
-import Order from './Card'
+import Order from './Order'
+
 import '../css/Card.css'
 import img1 from '../Assets/img1.jpg'
 import img2 from '../Assets/img2.jpg'
@@ -12,10 +12,10 @@ import img7 from '../Assets/img7.jpg'
 import img8 from '../Assets/img8.jpg'
 
 export default function Fooditem() {
-    const arr=[
+    const array=[
         {
           id:1,
-          rating:4.2,
+        //   rating:4.2,
          
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -25,7 +25,7 @@ export default function Fooditem() {
         },
         {
           id:2,
-          rating:4.2,
+        //   rating:4.2,
          
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -35,7 +35,7 @@ export default function Fooditem() {
         },
         {
           id:3,
-          rating:4.2,
+        //   rating:4.2,
           
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -45,7 +45,7 @@ export default function Fooditem() {
         },
         {
           id:4,
-          rating:4.2,
+        //   rating:4.2,
          
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -55,7 +55,7 @@ export default function Fooditem() {
         },
         {
           id:5,
-          rating:4.2,
+        //   rating:4.2,
         
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -65,7 +65,7 @@ export default function Fooditem() {
         },
         {
           id:6,
-          rating:4.2,
+        //   rating:4.2,
          
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -75,7 +75,7 @@ export default function Fooditem() {
         },
         {
           id:7,
-          rating:4.2,
+        //   rating:4.2,
          
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -85,7 +85,7 @@ export default function Fooditem() {
         },
         {
           id:8,
-          rating:4.2,
+        //   rating:4.2,
           
           product_name:"Cabage salad",
           portion:'250g' ,
@@ -97,8 +97,8 @@ export default function Fooditem() {
   return (
     <div className="product" >
     {
-      arr.map((arr,id)=>{
-          return <Card key={id} rating={arr.rating} image={arr.image} product_name={arr.product_name} portion={arr.portion} price={arr.price} 
+      array.map((array,id)=>{
+          return <Order key={id}  image={array.image} product_name={array.product_name} portion={array.portion} price={array.price} 
 
           />
       
